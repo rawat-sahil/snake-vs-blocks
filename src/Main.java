@@ -13,20 +13,7 @@ public class Main extends Application  {
     GameScene gameScene;
     LeaderBoardScene leaderBoardScene;
 
-    public static int  checkall(){
-    	if(menu==null)return 0;
-    	else return 1;
-    	if(gameComponent==null)return 0;
-    	else return 1;
-    	if(leaderBoard==null)return 0;
-    	else return 1;
-    	if(menuScene==null)return 0;
-    	else return 1;
-    	if(gameScene==null)return 0;
-    	else return 1;
-    	if(leaderBoardScene==null)return 0;
-    	else return 1;
-    }
+    
 
     /**
      * @param args
